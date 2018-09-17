@@ -57,7 +57,7 @@ export class Tooltip implements AfterViewInit {
   private tooltipElement: ComponentRef<TooltipBox>;
   private tooltipTimeout: any;
   private _canShow: boolean = true;
-  private _active: boolean = false;
+  private _active: boolean = true;
 
   constructor(
     private el: ElementRef,
