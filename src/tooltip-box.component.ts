@@ -31,7 +31,7 @@ import {
         background-color: rgba(0, 0, 0, 0.8);
         color: white;
         display: inline-block;
-        position: fixed;
+        position: absolute;
         padding: 15px 25px;
         font-size: 15px;
       }
